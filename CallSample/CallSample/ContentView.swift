@@ -22,7 +22,7 @@ struct ContentView: View {
       Image(systemName: "globe")
         .imageScale(.large)
         .foregroundColor(.accentColor)
-        Button(action: {NotificationManager.instance.sendNotification()}, label: {makeButtonText("通知Dev")})
+        Button(action: {NotificationManager.instance.sendNotification()}, label: {makeButtonText("通知")})
       HStack{
         Button(action: {self.count = self.count + addCount}, label: {makeButtonText("呼び出し")})
         Button(action: {self.count = self.count + addCount}, label: {makeButtonText("取り消し")})
